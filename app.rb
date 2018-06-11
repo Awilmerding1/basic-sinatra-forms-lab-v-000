@@ -7,7 +7,7 @@ class App < Sinatra::Base
   end
   
   post '/team' do 
-   @team = {"name"=>""}
+   @team = {"name"=>"Brooklyn Nets", "c"=>"Louis Armstrong", "pg"=>"Ella Fitzgerald", "sg"=>"Miles Davis", "sf"=>"Dave Brubeck", "pf"=>"John Coltrane", "c"=>"Sonny Rollins"}
   end
 
 
