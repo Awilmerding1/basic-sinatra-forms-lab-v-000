@@ -6,8 +6,8 @@
  </head>
  <body>
   
-   <% @team.each do |team| %>
-	  <h2><%= friend %></h2>
+   <% @team.each do |key, value| %>
+	  <h2><%= team: value %></h2>
     <% end %>
 
  </body>
