@@ -7,7 +7,7 @@ class App < Sinatra::Base
   end
   
   post '/team' do 
-   @key = params[""]
+   @team = param
    erb :team
   end
 
