@@ -7,9 +7,7 @@ class App < Sinatra::Base
   end
   
   post '/team' do 
-    <% @team.each do |friend| %>
-	  <h2><%= friend %></h2>
-    <% end %>
+   
   end
 
 
